@@ -111,7 +111,7 @@ const CTA = () => {
               </div>
               <h4 className="text-xl font-bold text-white mb-3">Email Us</h4>
               <a 
-                href="mailto:hello@sindhugpt.com" 
+                href="mailto:sindhugpt.ai@gmail.com" 
                 className="text-accent hover:text-accent/80 transition-colors duration-300 font-medium"
               >
                 sindhugpt.ai@gmail.com
@@ -124,7 +124,7 @@ const CTA = () => {
               </div>
               <h4 className="text-xl font-bold text-white mb-3">WhatsApp</h4>
               <a 
-                href="https://wa.me/923001234567" 
+                href="https://wa.me/923140665954" 
                 className="text-accent hover:text-accent/80 transition-colors duration-300 font-medium"
               >
                 +92 314 066 5954
@@ -137,7 +137,7 @@ const CTA = () => {
               </div>
               <h4 className="text-xl font-bold text-white mb-3">Call Us</h4>
               <a 
-                href="tel:+923001234567" 
+                href="tel:+923102486472" 
                 className="text-accent hover:text-accent/80 transition-colors duration-300 font-medium"
               >
                 +92 310 248 6472
