@@ -49,13 +49,13 @@ const Footer = () => {
               </div>
               <div className="flex items-center text-gray-300">
                 <Mail className="h-5 w-5 mr-3 text-accent" />
-                <a href="mailto:hello@sindhugpt.com" className="hover:text-accent transition-colors duration-300">
+                <a href="mailto:sindhugpt.ai@gmail.com" className="hover:text-accent transition-colors duration-300">
                   sindhugpt.ai@gmail.com
                 </a>
               </div>
               <div className="flex items-center text-gray-300">
                 <Phone className="h-5 w-5 mr-3 text-accent" />
-                <a href="tel:+923001234567" className="hover:text-accent transition-colors duration-300">
+                <a href="tel:+923140665954" className="hover:text-accent transition-colors duration-300">
                   +92 314 066 5954
                 </a>
               </div>
