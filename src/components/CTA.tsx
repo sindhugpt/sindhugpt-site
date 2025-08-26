@@ -34,11 +34,18 @@ const CTA = () => {
             <p className="text-gray-300 leading-relaxed mb-6">
               Be among the first to talk to AI in Sindhi. Join our waitlist and get early access to SindhuGPT.
             </p>
-            <button className="group w-full bg-accent hover:bg-accent/80 text-gray-900 px-6 py-4 rounded-2xl font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3">
-              <Users className="h-5 w-5" />
-              Join Waitlist
-              <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
-            </button>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScYkfl9WyXYcYub00VSJR7PDbP7aYdWspan-d8xnh3tjd8-Yw/viewform?usp=dialog"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group block w-full bg-accent hover:bg-accent/80 text-gray-900 px-6 py-4 rounded-2xl font-semibold text-lg transition-all duration-300"
+            >
+              <div className="flex items-center justify-center gap-3">
+                <Users className="h-5 w-5" />
+                Join Waitlist
+                <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              </div>
+            </a>
             <div className="mt-4 text-accent text-sm font-medium">
               150+ people already registered
             </div>
@@ -53,7 +60,10 @@ const CTA = () => {
             <p className="text-gray-300 leading-relaxed mb-6">
               NGOs, EdTech, healthcare organizations - let's bring AI to your Sindhi-speaking communities.
             </p>
-            <button className="group w-full border-2 border-accent text-accent hover:bg-accent hover:text-gray-900 px-6 py-4 rounded-2xl font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3">
+            <button
+              onClick={() => scrollToSection('contact')}
+              className="group w-full border-2 border-accent text-accent hover:bg-accent hover:text-gray-900 px-6 py-4 rounded-2xl font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3"
+            >
               <Building className="h-5 w-5" />
               Partner with Us
               <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -72,11 +82,18 @@ const CTA = () => {
             <p className="text-gray-300 leading-relaxed mb-6">
               $3,300 seed investment → MVP in 3 months → Break-even in 2 months. Join our vision.
             </p>
-            <button className="group w-full bg-gray-800 hover:bg-gray-700 border border-gray-600 text-white px-6 py-4 rounded-2xl font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3">
-              <TrendingUp className="h-5 w-5" />
-              View Investor Deck
-              <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
-            </button>
+            <a
+              href="https://docs.google.com/forms/d/e/your-investor-form-or-deck-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group block w-full bg-gray-800 hover:bg-gray-700 border border-gray-600 text-white px-6 py-4 rounded-2xl font-semibold text-lg transition-all duration-300"
+            >
+              <div className="flex items-center justify-center gap-3">
+                <TrendingUp className="h-5 w-5" />
+                View Investor Deck
+                <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              </div>
+            </a>
             <div className="mt-4 text-gray-400 text-sm">
               Seeking $3,300 seed funding
             </div>
@@ -97,7 +114,7 @@ const CTA = () => {
                 href="mailto:hello@sindhugpt.com" 
                 className="text-accent hover:text-accent/80 transition-colors duration-300 font-medium"
               >
-                hello@sindhugpt.com
+                sindhugpt.ai@gmail.com
               </a>
             </div>
 
@@ -110,7 +127,7 @@ const CTA = () => {
                 href="https://wa.me/923001234567" 
                 className="text-accent hover:text-accent/80 transition-colors duration-300 font-medium"
               >
-                +92 300 123 4567
+                +92 314 066 5954
               </a>
             </div>
 
@@ -123,7 +140,7 @@ const CTA = () => {
                 href="tel:+923001234567" 
                 className="text-accent hover:text-accent/80 transition-colors duration-300 font-medium"
               >
-                +92 300 123 4567
+                +92 310 248 6472
               </a>
             </div>
           </div>

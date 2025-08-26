@@ -4,51 +4,68 @@ import { Linkedin, Mail, Code, Users, Briefcase } from 'lucide-react';
 const Team = () => {
   const teamMembers = [
     {
-      name: "Ahmed Ali Sindhi",
-      role: "CEO & Founder",
-      specialization: "AI Engineering & Community Leadership",
-      image: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=400",
-      bio: "AI engineer with 5+ years in NLP and machine learning. Born and raised in Sindh, passionate about preserving our language through technology. Previously worked on multilingual AI models at tech startups.",
-      expertise: ["Natural Language Processing", "Community Building", "Sindhi Language & Culture", "Product Strategy"],
-      education: "MS Computer Science, NED University",
-      linkedin: "#",
-      email: "ahmed@sindhugpt.com"
+      name: "Ghulam Hussain",
+      role: "Founder & CEO",
+      specialization: "AI Engineering | LLM Development | Innovation Leadership",
+      image: "/assets/team/ghk.png",
+      bio: "Founder & CEO of SindhuGPT. As an AI Engineer and visionary leader, I drive the mission of leveraging intelligent systems to empower 30+ million Sindhi speakers. My focus lies in innovation, strategic partnerships, and guiding the technical roadmap for AI-driven products.",
+      expertise: [
+        "AI Engineering & LLM Development",
+        "Product Innovation & Vision",
+        "Leadership & Strategic Direction",
+        "Community-Centric AI Solutions",
+      ],
+      education: "BE Software Engineering, MUET Jamshoro",
+      linkedin: "https://www.linkedin.com/in/ghulamhussainkhuhro",
+      email: "ghulamhussain.career@gmail.com",
     },
     {
-      name: "Fatima Khan",
+      name: "Abbas Ali",
       role: "CTO & Co-Founder",
-      specialization: "Backend Development & ML Infrastructure",
-      image: "https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=400",
-      bio: "Full-stack engineer specializing in scalable cloud architectures and ML model deployment. Expert in Python, Node.js, and cloud platforms. Committed to bringing cutting-edge AI to underserved communities.",
-      expertise: ["Cloud Architecture", "ML Model Deployment", "API Development", "System Scalability"],
-      education: "BS Software Engineering, FAST-NUCES",
-      linkedin: "#",
-      email: "fatima@sindhugpt.com"
+      specialization: "Software Architecture | Scalable Systems | AI Infrastructure",
+      image: "/assets/team/abbas.jpg",
+      bio: "CTO & Co-Founder with expertise in software architecture and scalable system design. I lead the development of AI infrastructure, ensuring our products are secure, reliable, and built for growth. Passionate about bridging advanced AI with real-world applications.",
+      expertise: [
+        "System Architecture & Design",
+        "Scalable Web Applications",
+        "AI Infrastructure & APIs",
+        "Technical Team Leadership",
+      ],
+      education: "BE Software Engineering, MUET Jamshoro",
+      linkedin: "https://www.linkedin.com/in/abro-abbas?originalSubdomain=pk",
+      email: "abbasabro@gmail.com",
     },
     {
-      name: "Hassan Memon",
+      name: "Ghulam Mustafa Khoso",
       role: "COO & Co-Founder",
-      specialization: "Operations & Strategic Partnerships",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400",
-      bio: "Business strategist with expertise in NGO partnerships and community outreach. Deep connections within Sindhi communities globally. Previously managed operations for EdTech startups in emerging markets.",
-      expertise: ["Partnership Development", "Community Outreach", "Business Strategy", "Operations Management"],
-      education: "MBA Marketing, IBA Karachi",
-      linkedin: "#",
-      email: "hassan@sindhugpt.com"
-    }
+      specialization: "Operations | Growth Strategy | Partnerships",
+      image: "/assets/team/gm.jpg",
+      bio: "COO & Co-Founder responsible for operational excellence, partnerships, and execution. With a strong background in startup growth and community engagement, I ensure our projects are delivered efficiently while scaling outreach across Sindhi tech communities.",
+      expertise: [
+        "Operational Management",
+        "Startup Growth & Execution",
+        "Partnership Development",
+        "Community Engagement & Advocacy",
+      ],
+      education: "BE Software Engineering, MUET Jamshoro",
+      linkedin: "https://www.linkedin.com/in/ghulammustafakhoso",
+      email: "ghulammustafakhoso086@gmail.com",
+    },
   ];
 
   const advisors = [
     {
-      name: "Dr. Rashid Jokhio",
+      name: "Rabeea Jaffari, Ph.D.",
       role: "AI Advisor",
-      expertise: "Professor of Computer Science, Sindhi NLP Research"
+      expertise:
+        "Ph.D. in AI | Interdisciplinary AI Researcher | Techwomen Emerging Leader | Academic (BPS-19) | Specializes in AI and related technologies",
     },
     {
-      name: "Sarah Ahmed",
-      role: "Business Advisor", 
-      expertise: "Former NGO Director, Community Development Expert"
-    }
+      name: "Ahtasham Ahsan",
+      role: "Business Advisor",
+      expertise:
+        "Assistant Manager at Business Incubation Center | Startup Growth & Innovation | Mentorship & Strategic Planning for Founders | Experience with PITB, NEP's NIC, Regional Plan9",
+    },
   ];
 
   return (
@@ -89,6 +106,8 @@ const Team = () => {
                   <div className="flex space-x-3">
                     <a 
                       href={member.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="bg-gray-700 hover:bg-accent hover:text-gray-900 text-gray-300 p-2 rounded-xl transition-all duration-300"
                     >
                       <Linkedin className="h-5 w-5" />
@@ -100,6 +119,7 @@ const Team = () => {
                       <Mail className="h-5 w-5" />
                     </a>
                   </div>
+
                 </div>
 
                 <p className="text-gray-300 leading-relaxed mb-6">{member.bio}</p>
@@ -184,7 +204,7 @@ const Team = () => {
             className="inline-flex items-center bg-accent hover:bg-accent/80 text-gray-900 px-6 py-3 rounded-2xl font-semibold transition-colors duration-300"
           >
             <Mail className="h-5 w-5 mr-2" />
-            careers@sindhugpt.com
+            sindhugpt.ai@gmail.com
           </a>
         </div>
       </div>

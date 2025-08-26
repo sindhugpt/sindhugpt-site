@@ -13,11 +13,18 @@ const Hero = () => {
     <section id="home" className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-16">
       <div className="max-w-7xl mx-auto text-center">
         {/* Logo */}
-        <div className="mb-8 flex justify-center">
-          <div className="bg-gradient-to-r from-accent/80 to-accent p-6 rounded-3xl shadow-2xl">
-            <div className="text-4xl font-bold text-gray-900">سِ</div>
-          </div>
+     <div className="mb-8 flex justify-center">
+        <div className="p-4 rounded-3xl shadow-2xl bg-white/5 backdrop-blur h-28 w-28 flex items-center justify-center overflow-hidden">
+          <img 
+            src="/assets/SindhuGPT.png" 
+            alt="SindhuGPT Logo"
+            className="h-full w-full object-cover"  // 👈 fills the square
+          />
         </div>
+      </div>
+
+
+
 
         {/* Main Heading */}
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-gray-200 to-accent bg-clip-text text-transparent">

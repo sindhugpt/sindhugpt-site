@@ -45,18 +45,18 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center text-gray-300">
                 <MapPin className="h-5 w-5 mr-3 text-accent" />
-                <span>Karachi, Pakistan</span>
+                <span>Hyderabad, Pakistan</span>
               </div>
               <div className="flex items-center text-gray-300">
                 <Mail className="h-5 w-5 mr-3 text-accent" />
                 <a href="mailto:hello@sindhugpt.com" className="hover:text-accent transition-colors duration-300">
-                  hello@sindhugpt.com
+                  sindhugpt.ai@gmail.com
                 </a>
               </div>
               <div className="flex items-center text-gray-300">
                 <Phone className="h-5 w-5 mr-3 text-accent" />
                 <a href="tel:+923001234567" className="hover:text-accent transition-colors duration-300">
-                  +92 300 123 4567
+                  +92 314 066 5954
                 </a>
               </div>
             </div>
@@ -110,13 +110,13 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between pt-8 border-t border-gray-800">
           <div className="flex items-center space-x-6 mb-4 md:mb-0">
             <a 
-              href="#" 
+              href="https://www.linkedin.com/company/sindhugpt/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3Bjjgt34qsQv60efSwRaJUqg%3D%3D" 
               className="bg-gray-800 hover:bg-accent hover:text-gray-900 text-gray-300 p-3 rounded-xl transition-all duration-300"
             >
               <Linkedin className="h-5 w-5" />
             </a>
             <a 
-              href="mailto:hello@sindhugpt.com" 
+              href="mailto:sindhugpt.ai@gmail.com" 
               className="bg-gray-800 hover:bg-accent hover:text-gray-900 text-gray-300 p-3 rounded-xl transition-all duration-300"
             >
               <Mail className="h-5 w-5" />
